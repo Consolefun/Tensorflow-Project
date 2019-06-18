@@ -14,7 +14,6 @@ Category_list = ["sex", "fbs", "restecg", "exang", "cp", "slope", "ca", "thal", 
 Truevalue_list = ["age", "trestbps", "chol", "thalach", "oldpeak"]
 
 #one-hot encode target column
-early_stopping_monitor = EarlyStopping(patience=3)
 
 target = to_categorical(dataset.target)
 
